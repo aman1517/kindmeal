@@ -2,7 +2,7 @@ var posts = document.getElementById('posts');
 var buttons1 = document.getElementById('buttons1');
 var buttons2 = document.getElementById('buttons2');
 const body = document.getElementById('posts');
-var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt:"",votes:15,rating:4.5,discount:30,hotel:"Table9 Cafe & Kitchen" ,location: "Kuala Lumpur, Wilayah Persekutuan",desc:"Indulge in a creative fare of Italian cuisine and Korean-inspired drinks in the cozy atmosphere of Table9.",
+var mockapi = [{ name:"Buon Appetito at table9",back:"./IMG/565-4023-l.jpg",alt:"",votes:15,rating:4.5,discount:30,hotel:"Table9 Cafe & Kitchen" ,location: "Kuala Lumpur, Wilayah Persekutuan",desc:"Indulge in a creative fare of Italian cuisine and Korean-inspired drinks in the cozy atmosphere of Table9.",
     expiry:"12 Days",
     egg:true,
     milk:true,
@@ -10,7 +10,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
     food:"burger",
     },{
         name:"Trendy Fusion Delights",
-        back:"../IMG/618-3514-l.jpg",
+        back:"./IMG/618-3514-l.jpg",
         votes:11,
         rating:5,
         discount:20,
@@ -25,7 +25,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
         },
         {
             name:"Authentic taste of Hong Kong",
-            back:"../IMG/666-4145-l.jpg",
+            back:"./IMG/666-4145-l.jpg",
             votes:0,
             rating:0,
             discount:30,
@@ -40,7 +40,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
             },
             {
                 name:"Vegipai's Fusion Indulgence",
-                back:"../IMG/591-3151-l.jpg",
+                back:"./IMG/591-3151-l.jpg",
                 votes:19,
                 rating:4.5,
                 discount:20,
@@ -55,7 +55,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                 },
                 {
                     name:"Rawsome Lifestyle",
-                    back:"../IMG/590-3137-l.jpg",
+                    back:"./IMG/590-3137-l.jpg",
                     votes:6,
                     rating:4.5,
                     discount:20,
@@ -70,7 +70,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                     },
                     {
                         name:"RAWsome Treats",
-                        back:"../IMG/508-2267-l.jpg",
+                        back:"./IMG/508-2267-l.jpg",
                         votes:12,
                         rating:5,
                         discount:25,
@@ -85,7 +85,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                         },
                         {
                             name:"Dining Bowl Asian Delicacies",
-                            back:"../IMG/383-1189-l.jpg",
+                            back:"./IMG/383-1189-l.jpg",
                             votes:12,
                             rating:4,
                             discount:20,
@@ -99,7 +99,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                             food:"salad",
                             }, {
                                 name:"Lovely Fusion Meals",
-                                back:"../IMG/633-3874-l.jpg",
+                                back:"./IMG/633-3874-l.jpg",
                                 votes:4,
                                 rating:4,
                                 discount:20,
@@ -113,7 +113,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                                 food:"japanesekorean"
                                 }, {
                                     name:"Hainaese & Local Delights",
-                                    back:"../IMG/660-4040-l.jpg",
+                                    back:"./IMG/660-4040-l.jpg",
                                     votes:4,
                                     rating:5,
                                     discount:20,
@@ -127,7 +127,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                                     food:"japanesekorean"
                                     }, {
                                         name:"Buon Appetito at table9",
-    back:"../IMG/565-4023-l.jpg",
+    back:"./IMG/565-4023-l.jpg",
     votes:15,
     rating:2,
     discount:30,
@@ -141,7 +141,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
     food:"salad",
     },{
         name:"Trendy Fusion Delights",
-        back:"../IMG/618-3514-l.jpg",
+        back:"./IMG/618-3514-l.jpg",
         votes:11,
         rating:3.5,
         discount:20,
@@ -156,7 +156,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
         },
         {
             name:"Authentic taste of Hong Kong",
-            back:"../IMG/666-4145-l.jpg",
+            back:"./IMG/666-4145-l.jpg",
             votes:0,
             rating:1.5,
             discount:30,
@@ -171,7 +171,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
             },
             {
                 name:"Vegipai's Fusion Indulgence",
-                back:"../IMG/591-3151-l.jpg",
+                back:"./IMG/591-3151-l.jpg",
                 votes:19,
                 rating:4.5,
                 discount:20,
@@ -186,7 +186,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                 },
                 {
                     name:"Rawsome Lifestyle",
-                    back:"../IMG/590-3137-l.jpg",
+                    back:"./IMG/590-3137-l.jpg",
                     votes:6,
                     rating:4.5,
                     discount:20,
@@ -201,7 +201,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                     },
                     {
                         name:"RAWsome Treats",
-                        back:"../IMG/508-2267-l.jpg",
+                        back:"./IMG/508-2267-l.jpg",
                         votes:12,
                         rating:5,
                         discount:25,
@@ -216,7 +216,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                         },
                         {
                             name:"Dining Bowl Asian Delicacies",
-                            back:"../IMG/383-1189-l.jpg",
+                            back:"./IMG/383-1189-l.jpg",
                             votes:12,
                             rating:4,
                             discount:20,
@@ -229,7 +229,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                             drink:false,
                             }, {
                                 name:"Lovely Fusion Meals",
-                                back:"../IMG/633-3874-l.jpg",
+                                back:"./IMG/633-3874-l.jpg",
                                 votes:4,
                                 rating:4,
                                 discount:20,
@@ -242,7 +242,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                                 drink:false,
                                 }, {
                                     name:"Hainaese & Local Delights",
-                                    back:"../IMG/660-4040-l.jpg",
+                                    back:"./IMG/660-4040-l.jpg",
                                     votes:4,
                                     rating:5,
                                     discount:20,
@@ -255,7 +255,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                                     drink:false,
                                     }, {
                                         name:"Buon Appetito at table9",
-                                        back:"../IMG/565-4023-l.jpg",
+                                        back:"./IMG/565-4023-l.jpg",
                                         votes:15,
                                         rating:4.5,
                                         discount:30,
@@ -269,7 +269,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                                         food:"burger",
                                         },{
                                             name:"Trendy Fusion Delights",
-                                            back:"../IMG/618-3514-l.jpg",
+                                            back:"./IMG/618-3514-l.jpg",
                                             votes:11,
                                             rating:5,
                                             discount:20,
@@ -284,7 +284,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                                             },
                                             {
                                                 name:"Authentic taste of Hong Kong",
-                                                back:"../IMG/666-4145-l.jpg",
+                                                back:"./IMG/666-4145-l.jpg",
                                                 votes:0,
                                                 rating:0,
                                                 discount:30,
@@ -299,7 +299,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                                                 },
                                                 {
                                                     name:"Vegipai's Fusion Indulgence",
-                                                    back:"../IMG/591-3151-l.jpg",
+                                                    back:"./IMG/591-3151-l.jpg",
                                                     votes:19,
                                                     rating:4.5,
                                                     discount:20,
@@ -313,7 +313,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                                                     },
                                                     {
                                                         name:"Rawsome Lifestyle",
-                                                        back:"../IMG/590-3137-l.jpg",
+                                                        back:"./IMG/590-3137-l.jpg",
                                                         votes:6,
                                                         rating:4.5,
                                                         discount:20,
@@ -327,7 +327,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                                                         },
                                                         {
                                                             name:"RAWsome Treats",
-                                                            back:"../IMG/508-2267-l.jpg",
+                                                            back:"./IMG/508-2267-l.jpg",
                                                             votes:12,
                                                             rating:5,
                                                             discount:25,
@@ -341,7 +341,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                                                             },
                                                             {
                                                                 name:"Dining Bowl Asian Delicacies",
-                                                                back:"../IMG/383-1189-l.jpg",
+                                                                back:"./IMG/383-1189-l.jpg",
                                                                 votes:12,
                                                                 rating:4,
                                                                 discount:20,
@@ -354,7 +354,7 @@ var mockapi = [{ name:"Buon Appetito at table9",back:"../IMG/565-4023-l.jpg",alt
                                                                 drink:false,
                                                                 }, {
                                                                     name:"Lovely Fusion Meals",
-                                                                    back:"../IMG/633-3874-l.jpg",
+                                                                    back:"./IMG/633-3874-l.jpg",
                                                                     votes:4,
                                                                     rating:4,
                                                                     discount:20,
@@ -530,6 +530,7 @@ function createButton(){
     button.innerHTML="Next";
     button.onclick = next;
     let clone = button.cloneNode(true);
+    console.log(clone)
     clone.onclick= next;
     buttons1.appendChild(button);
     buttons2.appendChild(clone);
